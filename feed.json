@@ -1,0 +1,179 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "playit.gg Docs",
+    "description": "",
+    "home_page_url": "https://playit-gg-docs.ims-network.net",
+    "feed_url": "https://playit-gg-docs.ims-network.net/feed.json",
+    "user_comment": "",
+    "icon": "https://playit-gg-docs.ims-network.net/media/website/playit.gg-logo.png",
+    "author": {
+        "name": "Patrick"
+    },
+    "items": [
+        {
+            "id": "https://playit-gg-docs.ims-network.net/timeout-minecraft.html",
+            "url": "https://playit-gg-docs.ims-network.net/timeout-minecraft.html",
+            "title": " Timeout Minecraft",
+            "summary": "Fixing timeout errors with Minecraft When hosting a server from home, you may notice that some players get kicked due to timeout. This happens when&hellip;",
+            "content_html": "<h2 class=\"title\">Fixing timeout errors with Minecraft</h2>\n<p>When hosting a server from home, you may notice that some players get kicked due to timeout.<br>This happens when the Minecraft server is unable to provide data to the player fast enough. <br>There are two ways to fix/improve this</p>\n<h2 class=\"content\">Solution #1</h2>\n<div class=\"content\"><br>\n<h5 class=\"align-center\"><strong>Are you on WiFi?</strong></h5>\n<p>Use an Ethernet cable, most internet performance issues are due to bad WiFi. Unless you have the latest WiFi 6 router and are on 5Ghz with a line of sight, Ethernet is the best way to go when hosting a server at home. <br><br>If Ethernet is not an option, try getting closer to your WiFi Router / Access Point. Also, if you have other WiFi-enabled devices that you can turn off, give that a try it may also help.</p>\n<h5 class=\"align-center\">Shut Programs Down</h5>\n<p>Turn off other programs that might be using your internet connection. <br>Depending on the technology used by your ISP to bring you internet, other users downloading or uploading data could dramatically affect your upload speed. <br>If you have a high-capacity plan using fiber, this is probably not a concern (I’m jealous).</p>\n<h2 class=\"content\">Solution #2</h2>\n</div>\n<div> </div>\n<div class=\"content\">Lower the amount of data your server needs to send<br>\n<p>In <code>server.properties</code> there’s a variable named <code>view-distance</code>. <br>By default <code>view-distance=10</code>, this tells your server to send world data that is within a 10 chunks radius of the player. If you’re getting timeout issues, <br><br>I suggest lowering this value so that <code>view-distance=3</code>. If you want the view distance to be larger, you can keep increasing the value until you get timeout issues again(then subtract 1).</p>\n<p class=\"msg msg--info\"><strong>Note</strong> after saving <code>server.properties</code>, you’ll need to restart your Minecraft server for the change to take effect.</p>\n</div>",
+            "image": "https://playit-gg-docs.ims-network.net/media/posts/22/minecraft-timeout.png",
+            "author": {
+                "name": "Patrick"
+            },
+            "tags": [
+                   "Routing",
+                   "Minecraft",
+                   "Isuues",
+                   "FAQ"
+            ],
+            "date_published": "2022-08-29T21:22:16+03:00",
+            "date_modified": "2022-08-29T21:26:28+03:00"
+        },
+        {
+            "id": "https://playit-gg-docs.ims-network.net/unknown-host.html",
+            "url": "https://playit-gg-docs.ims-network.net/unknown-host.html",
+            "title": " Unknown host",
+            "summary": "Fixing \"Unknown host\" in Minecraft Java You’ve set up your server with playit.gg and are ready to play. You or another player might be getting&hellip;",
+            "content_html": "<h2 class=\"title\">Fixing \"Unknown host\" in Minecraft Java</h2>\n<p>You’ve set up your server with playit.gg and are ready to play. <br>You or another player might be getting the Unknown host this error when trying to connect. <br>This error happens because the computer asks your ISP (Internet Service Provider), what the IP is, and the ISP is silly and reports it is unknown.</p>\n<h2 id=\"the-fix\">The Fix</h2>\n<h3>Solution #1</h3>\n<h4>Step One</h4>\n<p>Make sure you can join your server with the <u>local IP</u> of the tunnel <br>If you can't then your server might not be properly set up</p>\n<h4>Step two</h4>\n<p>If you can join locally, but not with the playit domain/IP make sure to activate <br><u>Do not show SVR records</u> in your playit settings <a class=\"anchor-1MIwyf anchorUnderlineOnHover-2qPutX\" title=\"https://playit.gg/account/settings\" href=\"https://playit.gg/account/settings\" rel=\"noreferrer noopener\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://playit.gg/account/settings</a></p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://playit-gg-docs.ims-network.net/media/posts/21/Captsad3ure.PNG\" sizes=\"(max-width: 749px) 100vw, 749px\" srcset=\"https://playit-gg-docs.ims-network.net/media/posts/21/responsive/Captsad3ure-xs.PNG 300w ,https://playit-gg-docs.ims-network.net/media/posts/21/responsive/Captsad3ure-sm.PNG 480w ,https://playit-gg-docs.ims-network.net/media/posts/21/responsive/Captsad3ure-md.PNG 749w\"  alt=\"\" width=\"1066\" height=\"548\"> </figure>\n<h3>Solution #2</h3>\n<h4>Step three</h4>\n<p>If it still doesn't work you might need to updating your DNS.</p>",
+            "image": "https://playit-gg-docs.ims-network.net/media/posts/21/minecraft-unknown-host.png",
+            "author": {
+                "name": "Patrick"
+            },
+            "tags": [
+                   "Minecraft",
+                   "Isuues",
+                   "FAQ"
+            ],
+            "date_published": "2022-08-29T21:21:41+03:00",
+            "date_modified": "2022-08-29T21:21:41+03:00"
+        },
+        {
+            "id": "https://playit-gg-docs.ims-network.net/is-it-safe-to-use-playit.html",
+            "url": "https://playit-gg-docs.ims-network.net/is-it-safe-to-use-playit.html",
+            "title": "Is it safe to use playit?",
+            "summary": "What is playit.gg? playit. gg is a networking service that makes it possible to host game servers at home that anyone across the world can&hellip;",
+            "content_html": "<h2>What is playit.gg?</h2>\n<p><strong>playit. gg</strong> is a networking service that makes it possible to host game servers at home that anyone across the world can join. We do this through our custom tunneling software. You can find our open-source client <a href=\"https://github.com/playit-cloud/playit-agent\">here</a>. When you launch the playit program, the program will connect to our Anycast Network and assign you a static IP and port. You can then share your static IP and port with friends. When they connect, their connection information will go to the nearest tunnel server and be tunneled to the playit program running on your computer. By tunneling the connection, your friend can connect to the server running within your network.</p>\n<p><a href=\"https://playit.gg/about\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"btn btn--outline\">Continue Reading </a></p>\n<h2>What Data Does Playit.gg Collect?</h2>\n<p>Playit.gg doesn't sell your data to third parties, playit.gg makes money from donations.</p>\n<p><a href=\"https://playit.gg/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"btn btn--outline\">Read The Full Privacy Policy Here</a></p>\n<h2>Playit Safty Benefits</h2>\n<ul style=\"list-style-type: square;\">\n<li>Your IP gets hidden</li>\n<li>You can turn the \"tunneling\" of at any time by closing the program</li>\n<li>DDoS attacks won't affect your network</li>\n<li>Open Source</li>\n<li>Huge Bandwith</li>\n<li>Better Connection Handling</li>\n<li>Strong Firewalls</li>\n<li>CorsssideScripting Protection</li>\n<li>More than 5K users</li>\n<li>Updates Regularly</li>\n</ul>\n<p> </p>\n<p> </p>",
+            "author": {
+                "name": "Patrick"
+            },
+            "tags": [
+                   "Website",
+                   "Routing",
+                   "Hello World",
+                   "FAQ"
+            ],
+            "date_published": "2022-08-29T21:12:25+03:00",
+            "date_modified": "2022-08-29T21:12:28+03:00"
+        },
+        {
+            "id": "https://playit-gg-docs.ims-network.net/i-cant-create-tunnels.html",
+            "url": "https://playit-gg-docs.ims-network.net/i-cant-create-tunnels.html",
+            "title": "I can&#x27;t create Tunnels",
+            "summary": "Account Limits playit.gg has limits for free accounts Free old accounts 6 tunnels New accounts 4 tunnels Premium Accounts 12 tunnels, more can be requested&hellip;",
+            "content_html": "<h2>Account Limits</h2>\n<p>playit.gg has limits for free accounts<br>Free old accounts 6 tunnels<br>New accounts 4 tunnels<br>Premium Accounts 12 tunnels, more can be requested if you need them.</p>\n<h2>Maximum Ports</h2>\n<p>You tried to create a tunnel with <u>to port</u> set to something that would exceed the limit each <u>to port+</u> takes up one more slot</p>\n<h2>Playit ran out of available ports</h2>\n<p>This happens sometimes but ports should be restocked quickly</p>",
+            "author": {
+                "name": "Patrick"
+            },
+            "tags": [
+                   "Routing"
+            ],
+            "date_published": "2022-08-29T21:00:10+03:00",
+            "date_modified": "2022-08-29T21:00:22+03:00"
+        },
+        {
+            "id": "https://playit-gg-docs.ims-network.net/website-support.html",
+            "url": "https://playit-gg-docs.ims-network.net/website-support.html",
+            "title": "Website Support",
+            "summary": "Using playit.gg cloud for websites! Create a custom tunnel for the website port, eg TCP | http = port 80, https = port 443 You&hellip;",
+            "content_html": "<p>Using playit.gg cloud for websites!</p>\n<div class=\"message-2CShn3 cozyMessage-1DWF9U wrapper-30-Nkg cozy-VmLDNB zalgo-26OfGz\" tabindex=\"-1\" role=\"article\" data-list-item-id=\"chat-messages___chat-messages-1007690827159572632\" aria-setsize=\"-1\" aria-roledescription=\"Message\" aria-labelledby=\"message-username-1007689684866039848 uid_1 message-content-1007690827159572632 uid_2 message-timestamp-1007690827159572632\">\n<div class=\"contents-2MsGLg\">\n<h2 id=\"message-content-1007690827159572632\" class=\"markup-eYLPri messageContent-2t3eCI\">Supporting A Website</h2>\n<div> </div>\n<div>You Can Create custom ports in the playit.gg website that will port forward<br>the website.</div>\n<div><a href=\"https://playit-gg-docs.ims-network.net/manually-creating-tunnels.html\">Follow This Guide For Opening Custom Ports </a></div>\n</div>\n</div>\n<p>Create a custom tunnel for the website port, eg TCP | http = port 80, https = port 443</p>\n<div class=\"message-2CShn3 cozyMessage-1DWF9U wrapper-30-Nkg cozy-VmLDNB zalgo-26OfGz\" tabindex=\"-1\" role=\"article\" data-list-item-id=\"chat-messages___chat-messages-1007690827159572632\" aria-setsize=\"-1\" aria-roledescription=\"Message\" aria-labelledby=\"message-username-1007689684866039848 uid_1 message-content-1007690827159572632 uid_2 message-timestamp-1007690827159572632\">\n<div class=\"contents-2MsGLg\">\n<div id=\"message-content-1007690827159572632\" class=\"markup-eYLPri messageContent-2t3eCI\"><br>You must include the domain+port to access your website, also if you have a custom domain you need to configure it correctly. <a href=\"https://playit-gg-docs.ims-network.net/how-to-use-a-custom-domain-with-playit-using-cloudflare.html\">Read More</a></div>\n</div>\n</div>",
+            "author": {
+                "name": "Patrick"
+            },
+            "tags": [
+                   "Website",
+                   "Hello World"
+            ],
+            "date_published": "2022-08-29T20:54:08+03:00",
+            "date_modified": "2022-08-29T20:54:45+03:00"
+        },
+        {
+            "id": "https://playit-gg-docs.ims-network.net/change-datacenter.html",
+            "url": "https://playit-gg-docs.ims-network.net/change-datacenter.html",
+            "title": "Change Datacenter ",
+            "summary": "If you are having high ping when using playit make sure that your playit program connects to the closest Datacenter to you you can check&hellip;",
+            "content_html": "<p>If you are having high ping when using playit make sure that your playit program connects to the closest Datacenter to you you can check this on the playit website</p>\n<p><img loading=\"lazy\" src=\"https://cdn.discordapp.com/attachments/1007668755918237726/1007689684933169193/unknown.png\" data-is-external-image=\"true\" ></p>\n<p>You can change your location if you have IPv6 <a class=\"anchor-1MIwyf anchorUnderlineOnHover-2qPutX\" title=\"https://test-ipv6.com/\" href=\"https://test-ipv6.com/\" rel=\"noreferrer noopener\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://test-ipv6.com/</a> <br>To do this put one of the <code>control addresses</code> at the top of your <code>playit.toml</code> file</p>\n<p><strong>On Linux</strong><br>you can find this file <code class=\"inline\">/etc/playit/playit.toml</code>, <br><strong>On Windows,</strong><br>it is located in the same place as your playit.exe</p>\n<p>The Playit agent should route you in the best way possible.</p>\n<p class=\"align-center msg msg--success\"><strong><span style=\"color: #e67e23;\">Updating Zones</span></strong><br><span style=\"color: #000000;\">Playit routing zones will be updated soon, please contact the support mail.</span><br><span style=\"color: #000000;\">Thanks for the understanding</span><br><br></p>\n<h3><strong>Have a bad ping? No Ipv6</strong></h3>\n<p class=\"align-center msg msg--info\"><strong><span style=\"color: #e03e2d;\">READ FIRST</span></strong> <br>It can be really difficult to update routing. <br>Routing is something your ISP decides, not us.<br>There are a few things we can try to influence your ISP to route you better, <br>but for many, it won't be possible until we buy more IP space.</p>\n<p>Send an email to support@playit.gg with the following data:<br>1) Where you're located (country/city/state) <br>2) The text from <a class=\"anchor-1MIwyf anchorUnderlineOnHover-2qPutX\" title=\"http://ping.playit.gg/\" href=\"http://ping.playit.gg/\" rel=\"noreferrer noopener\" target=\"_blank\" role=\"button\" tabindex=\"0\">http://ping.playit.gg/</a> <br>3) Which data center do you think would be best, visit <a class=\"anchor-1MIwyf anchorUnderlineOnHover-2qPutX\" title=\"https://playit.gg/about\" href=\"https://playit.gg/about\" rel=\"noreferrer noopener\" target=\"_blank\" role=\"button\" tabindex=\"0\">https://playit.gg/about</a> and see the map <br>4) One of your playit.gg tunnel addresses </p>",
+            "author": {
+                "name": "Patrick"
+            },
+            "tags": [
+                   "Routing",
+                   "Hello World"
+            ],
+            "date_published": "2022-08-29T18:41:31+03:00",
+            "date_modified": "2022-08-29T20:47:32+03:00"
+        },
+        {
+            "id": "https://playit-gg-docs.ims-network.net/manually-creating-tunnels.html",
+            "url": "https://playit-gg-docs.ims-network.net/manually-creating-tunnels.html",
+            "title": "Manually Creating Tunnels",
+            "summary": "Playit should work with almost every game using a custom tunnel, although some require you to either change your server settings or your tunnel settings.",
+            "content_html": "<p>Playit should work with almost every game using a custom tunnel, although some require you to either change your server settings or your tunnel settings.</p>\n<h2>Step One</h2>\n<p>Create a <u>custom tunnel</u> with your servers protocol (choose both if you are unsure) and choose 1 as the <u>local port</u><img loading=\"lazy\" src=\"https://cdn.discordapp.com/attachments/1007668755918237726/1007685102681198602/unknown.png\" data-is-external-image=\"true\" ></p>\n<h2>Step Two</h2>\n<p>Edit your newly created tunnel and change the <u>local port</u> to the random port that your tunnel got <img loading=\"lazy\" src=\"https://cdn.discordapp.com/attachments/1007668755918237726/1007685103109030038/unknown.png\" data-is-external-image=\"true\" ></p>\n<h2>Step Three</h2>\n<p>Then change your server port to the same port number, this is different for every game (most commonly you can change this in your start.bat / start.sh file) </p>\n<h2>Done!</h2>",
+            "author": {
+                "name": "Patrick"
+            },
+            "tags": [
+                   "Hello World"
+            ],
+            "date_published": "2022-08-29T18:22:39+03:00",
+            "date_modified": "2022-08-29T18:24:54+03:00"
+        },
+        {
+            "id": "https://playit-gg-docs.ims-network.net/first-tunnel.html",
+            "url": "https://playit-gg-docs.ims-network.net/first-tunnel.html",
+            "title": "First Tunnel",
+            "summary": "Welcome to Playit ❤ Step One Create an account and download playit.gg agent on your pc/server. Follow the instructions and installation platform for your operating&hellip;",
+            "content_html": "<h1>Welcome to Playit ❤</h1>\n<h2>Step One</h2>\n<figure class=\"post__image\">Create an account and download playit.gg agent on your pc/server.<br><img loading=\"lazy\"  src=\"https://playit-gg-docs.ims-network.net/media/posts/15//Captasdasure.PNG\" sizes=\"(max-width: 749px) 100vw, 749px\" srcset=\"https://playit-gg-docs.ims-network.net/media/posts/15//responsive/Captasdasure-xs.PNG 300w ,https://playit-gg-docs.ims-network.net/media/posts/15//responsive/Captasdasure-sm.PNG 480w ,https://playit-gg-docs.ims-network.net/media/posts/15//responsive/Captasdasure-md.PNG 749w\"  alt=\"\" width=\"1557\" height=\"888\"></figure>\n<p>Follow the instructions and installation platform for your operating system. </p>\n<h2>Step Two</h2>\n<figure class=\"post__image\">Click on Account<br><img loading=\"lazy\"  src=\"https://playit-gg-docs.ims-network.net/media/posts/15//Captufadjklsjkadffjkre.PNG\" sizes=\"(max-width: 749px) 100vw, 749px\" srcset=\"https://playit-gg-docs.ims-network.net/media/posts/15//responsive/Captufadjklsjkadffjkre-xs.PNG 300w ,https://playit-gg-docs.ims-network.net/media/posts/15//responsive/Captufadjklsjkadffjkre-sm.PNG 480w ,https://playit-gg-docs.ims-network.net/media/posts/15//responsive/Captufadjklsjkadffjkre-md.PNG 749w\"  alt=\"\" width=\"1470\" height=\"919\"></figure>\n<figure class=\"post__image\">Navigate to Tunnels (assuming you already have an account created)<br><img loading=\"lazy\"  src=\"https://playit-gg-docs.ims-network.net/media/posts/15//Caasdapture.PNG\" sizes=\"(max-width: 749px) 100vw, 749px\" srcset=\"https://playit-gg-docs.ims-network.net/media/posts/15//responsive/Caasdapture-xs.PNG 300w ,https://playit-gg-docs.ims-network.net/media/posts/15//responsive/Caasdapture-sm.PNG 480w ,https://playit-gg-docs.ims-network.net/media/posts/15//responsive/Caasdapture-md.PNG 749w\"  alt=\"\" width=\"1134\" height=\"258\"></figure>\n<h2>Step Three</h2>\n<p>Select your game and follow the instructions on the screen</p>\n<p class=\"msg msg--info\">Playit should work with almost every game using a custom tunnel, although some require you to either change your server settings or your tunnel settings. Read More Here</p>\n<h2>Done!</h2>\n<p>After the tunnel is created you should join it at the tunnel address</p>",
+            "author": {
+                "name": "Patrick"
+            },
+            "tags": [
+                   "Windows",
+                   "Linux",
+                   "Hello World"
+            ],
+            "date_published": "2022-08-29T18:14:07+03:00",
+            "date_modified": "2022-08-29T18:15:04+03:00"
+        },
+        {
+            "id": "https://playit-gg-docs.ims-network.net/run-playit-in-linux.html",
+            "url": "https://playit-gg-docs.ims-network.net/run-playit-in-linux.html",
+            "title": "Run playit in Linux",
+            "summary": "This is the most updated guide INSTALL PLAYIT ON LINUX Pre-Setup: Run the command(s) below sudo mkdir /etc/playit/ Navigate to the page for downloads and&hellip;",
+            "content_html": "<p class=\"msg msg--info\">This is the most updated guide</p>\n<h2><strong>Step Zero</strong></h2>\n<p><strong>INSTALL PLAYIT ON LINUX</strong><br>Pre-Setup: Run the command(s) below<br><code>sudo mkdir /etc/playit/</code></p>\n<h2><strong>Step One</strong></h2>\n<p>Navigate to the page for downloads and find the files with no extension <br>(no .exe or .dmg at the end): <br><a href=\"https://github.com/playit-cloud/playit-agent/releases/latest\">https://github.com/playit-cloud/playit-agent/releases/latest</a></p>\n<p>Find the one (most likely <strong><code>playit-&lt;some version&gt;</code></strong> with no file extension.) <br>and right-click it and press <strong>\"Copy link address\"</strong></p>\n<p class=\"msg msg--warning\"><strong><span style=\"color: #000000;\">IF YOU HAVE A DIFFERENT DISTRIBUTION OF LINUX FIND THE COMPATIBLE ONE</span></strong></p>\n<h2><strong>Step Two</strong></h2>\n<p>Run the following command: <strong><code>wget &lt;the-link-you-copied&gt; -O playit</code></strong> <br>while replacing <strong><code>&lt;the-link-you-copied&gt;</code></strong> with the link you copied from step 1</p>\n<h2><strong>Step Three</strong></h2>\n<p>Make the file runnable. <br>Run the following command:<br><strong><code>sudo chmod +x ./playit</code></strong></p>\n<h2><strong>Step Four</strong></h2>\n<p>Move the file to /etc/playit. Run the following command:<br><strong><code>sudo mv ./playit /etc/playit/playit</code></strong></p>\n<h2><strong>Step Five</strong></h2>\n<p>Make a service file (run on boot and in the background). Run the following command:<br><strong><code>sudo nano /etc/systemd/system/playit.service</code></strong><br>In the following window that opens, paste in this text:</p>\n<pre><code><strong>[Unit]</strong></code><br><code><strong>Description=Playit.gg client</strong></code><br><code><strong>After=network.target</strong></code><br><br><code><strong>[Service]</strong></code><br><code><strong>WorkingDirectory=/etc/playit</strong></code><br><code><strong>ExecStart=/etc/playit/playit</strong></code><br><code><strong>Restart=on-failure</strong></code><br><code><strong>RestartSec=5</strong></code><br><br><code><strong>[Install]</strong></code><br><code><strong>WantedBy=multi-user.target</strong></code></pre>\n<p>then do <strong><code>ctrl + x</code></strong> to exit the file, press <strong><code>y</code></strong> to save, and then <strong><code>enter</code></strong> to confirm.</p>\n<h2><strong>Step Six</strong></h2>\n<p>Start the service in the background. Run the following commands:<br><strong><code>sudo systemctl start playit</code></strong><br><strong><code>sudo systemctl enable playit</code></strong></p>\n<h2><strong>Step Seven</strong></h2>\n<p>Get the claim code from playit. Run the following commands:<br><strong><code>sudo systemctl status playit</code></strong><br>From here you should be able to get the claim link. Paste it into your browser and log in to start creating tunnels.</p>\n<p><br><strong>To exit this menu do <code>CTRL + C</code></strong></p>\n<h2>Done!</h2>",
+            "author": {
+                "name": "Patrick"
+            },
+            "tags": [
+                   "Linux"
+            ],
+            "date_published": "2022-08-29T17:59:12+03:00",
+            "date_modified": "2022-08-29T18:01:24+03:00"
+        },
+        {
+            "id": "https://playit-gg-docs.ims-network.net/creating-a-mindustry-server-tunnel.html",
+            "url": "https://playit-gg-docs.ims-network.net/creating-a-mindustry-server-tunnel.html",
+            "title": "Setup a Mindustry server",
+            "summary": "Step 1 - Getting the server jar Mindustry is written in Java, in fact when you execute the Windows executable, it just runs a Java&hellip;",
+            "content_html": "<h2>Step 1 - Getting the server jar</h2>\n<p class=\"msg msg--info\"><span style=\"color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);\">Mindustry is written in Java, in fact when you execute the Windows executable, it just runs a Java VM that comes with it and runs the desktop jar file. <br>For servers, however, they only provide a </span><code style=\"font-weight: var(--font-weight-normal);\">server.jar</code><span style=\"color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);\"> file and a bunch of run scripts in bash and Windows Batch Executable.<br></span>Simply go to the <a href=\"https://github.com/Anuken/Mindustry/releases\" rel=\"noopener nofollow ugc\">GitHub Release</a> or go through the <a href=\"https://anuke.itch.io/mindustry\" rel=\"noopener nofollow ugc\">itch page</a> and press the <code>Download</code> button (note that you do not have to pay to purchase, that’s only the Steam version) and download the server variant of the game<br>(<code>server-release.jar</code> on GitHub and <code>[Server]Mindustry.zip</code> on itch),<br>if it’s inside a zip then extract the zip.</p>\n<h2>Step 2 - Running the server to get the port</h2>\n<p>If the thing you’re using runs Java and has internet, then it can also run the server jar. <br><em>I will be using Windows Subsystem for Linux 2 on Windows 11.</em> <br>Open a command line and type something similar to the below:</p>\n<p><img loading=\"lazy\" src=\"https://discuss.playit.gg/uploads/default/original/1X/1149505cfa9ebbcdd8737c55c926a27921a28b9c.png\" data-is-external-image=\"true\"  alt=\"image\"></p>\n<p class=\"msg msg--highlight \"><span style=\"color: #000000;\">Notice how after <code>-jar</code> I put the jar file’s name with the extension</span></p>\n<p>Alternatively, just run the provided batch executable/bash script file provided with it if you download it from the itch.</p>\n<h2>Step 3 - Getting the server’s port</h2>\n<p>The server by default runs on <code>127.0.0.1</code>, so all you need is the port, to check (and configure) the port, you can type <code>config</code>, it will show up a bunch of stuff so scroll up until the port section. (in my case the port was 6567)</p>\n<p><img loading=\"lazy\" src=\"https://discuss.playit.gg/uploads/default/original/1X/deebf4887f3203a3b160cc6703a09b3ab03b6556.png\" data-is-external-image=\"true\"  alt=\"image\"></p>\n<p>To change the port, simply type <code>config port &lt;insert port number&gt;</code> and press enter.</p>\n<h2>Step 4 - Setting up the custom tunnel</h2>\n<p>Open up your account page, open the tunnels tab, and on <code>Add new tunnel</code> select custom.</p>\n<p><img loading=\"lazy\" src=\"https://discuss.playit.gg/uploads/default/optimized/1X/41f52e13804a003b47e25ae8b71e5c8404e86395_2_690x136.png\" data-is-external-image=\"true\"  alt=\"image\"></p>\n<p>Then after that, type the port you got from the server into the <code>Local port</code> textbox</p>\n<div class=\"lightbox-wrapper\"><img loading=\"lazy\" src=\"https://discuss.playit.gg/uploads/default/optimized/1X/125b7857f846cb12f82985f840cf27d565c0c253_2_690x196.png\" data-is-external-image=\"true\"  alt=\"image\"></div>\n<div>Then click set and that’s all for configuring the tunnel!</div>\n<div>\n<h2>Step 5 - Hosting a round and connecting to the server</h2>\n<p>First, let’s start a round session, on the server console, type in <br><code>host [optional map name] [optional mode arg]</code> to start a round session. <br>(to get available maps, type <code>maps</code>), <br>if you do not specify any arguments, the map will be random and the mode will be survival by default.</p>\n<p>Download the game (aka desktop) variant, and <strong>ensure it’s the same version as the server</strong>. <br>Then launch the game, wait for it to load then click on <code>Play</code>, then <code>Join Game</code></p>\n<p><img loading=\"lazy\" src=\"https://discuss.playit.gg/uploads/default/optimized/1X/09204d607eccfe5c5c8790b9a8f5d89fcda67e09_2_690x370.jpeg\" data-is-external-image=\"true\"  alt=\"image\"></p>\n<p>Now type in your username, and select a team color if you want to be in a different team (the color box next to username textbox), then click add server. Type/paste the tunnel url with the port, click ok, and then try joining it, if it works then you should see something like this:</p>\n<p><img loading=\"lazy\" src=\"https://discuss.playit.gg/uploads/default/optimized/1X/31675051f9fbbd5554a8e52fcc46bd628819f0de_2_690x371.jpeg\" data-is-external-image=\"true\"  alt=\"image\"></p>\n<p>I hosted the <code>fortress</code> map under <code>sandbox</code> mode in the picture above</p>\n<h2>Done</h2>\n<p>And that’s all you need for creating a tunnel for Mindustry in playit!</p>\n</div>",
+            "author": {
+                "name": "Patrick"
+            },
+            "tags": [
+                   "Mindustry",
+                   "Hello World"
+            ],
+            "date_published": "2022-08-29T17:20:34+03:00",
+            "date_modified": "2022-08-29T17:23:14+03:00"
+        }
+    ]
+}

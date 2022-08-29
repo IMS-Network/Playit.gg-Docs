@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://playit-gg-docs.ims-network.net/sitemap.xml
